@@ -1,4 +1,37 @@
+<?php 
 /*
  * Register html form which will print the registration form.
  * Controller will be writen in Controllers/register.php
  */
+?>
+
+<h1> РЕГИСТРАЦИЯ </h1>
+
+<p> Регистрация на бегач </p>
+<form method="post" action="register.php">
+	Име:			<input type="text" name="firstname"><br>
+ 	Фамилия:		<input type="text" name="lastname"><br>
+ 	Рожденна дата:	<input type="date" name="birthdate"><br>
+ 	Пол:			<input type="radio" name="gender" value="male" checked> Мъж
+ 					<input type="radio" name="gender" value="female"> Жена<br>
+ 	Имейл:			<input type="email" name="mail"><br>
+ 	Телефон:		<input type="tel" name="phone"><br>
+ 	Компания:		<select>
+						<option value="id">Име_На_Компания</option>
+						<option value="id">Име_На_Компания</option>
+						<option value="id">Име_На_Компания</option>
+					</select>			
+	<input type="submit" value="Включи се!">
+</form>
+
+<hr>
+
+<p> Регистрация на Компания </p>
+<form method="post" action="register.php">
+	Име:			<input type="text" name="firstname"><br>
+ 	Имейл:			<input type="email" name="mail"><br>
+ 	Телефон:		<input type="tel" name="phone"><br>
+ 	Уеб сайт:		<input type="text" name="site"><br>
+ 	Лого:			<input type="file" name="logo" accept="image/*"><br>
+	<input type="submit" value="Включи се!">
+</form>

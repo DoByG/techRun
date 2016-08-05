@@ -1,4 +1,16 @@
+<?php
 /*
  * Contacts html form which will print the contacts form.
  * Controller will be writen in Controllers/contacts.php
  */
+?>
+
+<h1> КОНТАКТИ </h1>
+
+<p> За връзка с нас </p>
+<form method="post" action="contacts.php">
+	Име:			<input type="text" name="name"><br>
+ 	Имейл:			<input type="email" name="mail"><br>
+ 	Съобщение:<br>	<input type="textarea" name="msg"><br>
+	<input type="submit" value="Изпрати">
+</form>

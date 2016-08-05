@@ -1,0 +1,15 @@
+<?php
+/*
+ * Participants html page which will print the participants lists.
+ * Controller will be writen in Controllers/participants.php
+ */
+?>
+
+<h1> УЧАСТНИЦИ </h1>
+
+<p> Компании </p>
+<div>
+	<a href="уебсайт">
+		<img src="лого">
+	</a>
+</div>
